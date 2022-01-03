@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IntroStyle = styled.div`
   height: 100vh;
-  background: #060606;
+  background: #ffffff;
 
   .App {
     text-align: center;
@@ -25,16 +25,17 @@ export const IntroStyle = styled.div`
   }
 
   .container-buttons  {
-    position: absolute;
-    margin: 0 auto;
-    bottom: 100px;
-    display: flex;
-    font-size: 12px;
+    
+    
+    
+  }
+  .swiper-button-next{
+    display: none;
   }
 
   .slider-container {
-    width: 400px;
-    height: 200px;
+    width: 900px;
+    height: 700px;
   }
   .swiper-container {
     width: 100%;

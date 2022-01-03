@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Intro from './containers/intro/intro';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <Intro/>
+    <Home/>
   );
 }
 
